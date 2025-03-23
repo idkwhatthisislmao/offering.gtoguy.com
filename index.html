@@ -49,8 +49,23 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <a href="../media/obbyvid.mp4" target="_blank">It is a process in the plan.</a>
-    </div>
+   <div class="container">
+    <a href="#" id="playSoundLink">It is a process in the plan.</a>
+</div>
+
+<script>
+    const link = document.getElementById("playSoundLink");
+    
+    link.addEventListener("click", function (event) {
+        event.preventDefault();
+
+        const audio = new Audio("../media/morse.wav");
+
+        audio.play();
+        audio.onended = function () {
+            window.location.href = "https://drive.google.com/uc?export=download&id=102P47VkNANWUSUIqWDlOhgfWVN9cdsvU";
+        };
+    });
+</script>
 </body>
 </html>
