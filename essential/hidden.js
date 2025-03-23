@@ -1,4 +1,4 @@
-const main = "jS50aQyWq7Q3PrKxG/tCPw===";
+const main = "jS50aQyWq7Q3PrKxG/tCPw==";
 const key = 'UIqWDlOhgP47V02P47WDlOhgfWVN9cdsvUcdsvU';
 
 function encryptPassword(userinput) {
