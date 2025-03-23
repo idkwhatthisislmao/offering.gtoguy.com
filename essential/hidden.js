@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById("submitButton").addEventListener("click", function() {
         const userinput = document.getElementById("passwordInput").value;
         const enc = encryptPassword(userinput);
-
-        console.log(enc);
         
         if (enc === main) {
             alert("corect");
