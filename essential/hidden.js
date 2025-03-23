@@ -6,13 +6,11 @@ function encryptPassword(userinput) {
     return encrypted;
 }
 
-// Add event listener for the button click
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById("submitButton").addEventListener("click", function() {
         const userinput = document.getElementById("passwordInput").value;
         const enc = encryptPassword(userinput);
-
-        // Compare the encrypted user input to the pre-encrypted password
+        
         if (enc === main) {
             window.location.href = "https://drive.google.com/uc?export=download&id=102P47VkNANWUSUIqWDlOhgfWVN9cdsvU";
         } else {
