@@ -15,11 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById("submitButton").addEventListener("click", function() {
         const userinput = document.getElementById("passwordInput").value;
         const enc = encryptPassword(userinput);
-
-        console.log(enc);
         
         if (enc === main) {
-            alert("corect");
+            window.location.href = "../media/?.txt";
         } else {
            window.location.href = "https://drive.google.com/uc?export=download&id=1-KiHvGPtJP4pvt5zbxSw6mrH3RzPDLLL";
         }
