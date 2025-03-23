@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const enc = encryptPassword(userinput);
         
         if (enc === main) {
-            window.location.href = "../media/?.txt";
+            window.location.href = "../media/info.txt";
         } else {
            window.location.href = "https://drive.google.com/uc?export=download&id=1-KiHvGPtJP4pvt5zbxSw6mrH3RzPDLLL";
         }
