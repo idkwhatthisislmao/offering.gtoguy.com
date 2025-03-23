@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log(enc);
         
         if (enc === main) {
-            window.location.href = "https://drive.google.com/uc?export=download&id=102P47VkNANWUSUIqWDlOhgfWVN9cdsvU";
+            alert("corect");
         } else {
-            alert("Incorrect password. Please try again.");
+           window.location.href = "https://drive.google.com/uc?export=download&id=1-KiHvGPtJP4pvt5zbxSw6mrH3RzPDLLL";
         }
     });
 });
