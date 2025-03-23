@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const userinput = document.getElementById("passwordInput").value;
         const enc = encryptPassword(userinput);
 
+        console.log(enc);
+        
         if (enc === main) {
             alert("corect");
         } else {
